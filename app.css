@@ -28,7 +28,7 @@ body {
 .card {
     box-shadow: rgba(0, 0, 0, 0.649) 3px 3px 5px;
     border-radius: 1rem;
-    width: 350px;
+    max-width: 350px;
     height: 600px;
     background: var(--Very-dark-blue-card-BG);
 }
@@ -99,13 +99,13 @@ body {
     margin: auto;
 }
 
-.card-body .title h2 {
+.card-body .title h1 {
     color: var(--White);
     font-weight: 600;
     gap: 0.5rem;
 }
 
-.card-body .title h2:hover {
+.card-body .title h1:hover {
     color: var(--Cyan);
     cursor: pointer;
 }
